@@ -28,6 +28,9 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        thingOne.resignFirstResponder()
+        thingTwo.resignFirstResponder()
     }
 
         //Actions
@@ -38,11 +41,13 @@ class ViewController: UIViewController
         var thingOne = thingOne.text ?? "1"
         var thingTwo = thingTwo.text ?? "1"
         
-        var appleDeletus = Int(thingOne) ?? 1
-        var orangePower = Int(thingTwo) ?? 1
+        var appleDeletus = Float(thingOne) ?? 1
+        var orangePower = Float(thingTwo) ?? 1
         
         var doubleDeckerHamburger = appleDeletus * orangePower
         thingFour.text = "\(doubleDeckerHamburger)"
+        
+        
         
     }
     
