@@ -12,15 +12,20 @@ class ViewController: UIViewController
     
     //Variables
     
+    //Important
     @IBOutlet weak var thingOne: UITextField!
     
     @IBOutlet weak var thingTwo: UITextField!
     
+    //Not important
     @IBOutlet weak var thingThree: UILabel!
     
+    //Important
     @IBOutlet weak var thingFour: UILabel!
     
-   
+    //Images
+    @IBOutlet weak var imageView: UIImageView!
+    
     
     
     //FunctionTIME
@@ -29,8 +34,10 @@ class ViewController: UIViewController
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        
         thingOne.resignFirstResponder()
         thingTwo.resignFirstResponder()
+
     }
 
         //Actions
@@ -47,6 +54,13 @@ class ViewController: UIViewController
         var doubleDeckerHamburger = appleDeletus * orangePower
         thingFour.text = "\(doubleDeckerHamburger)"
         
+        if doubleDeckerHamburger == 64
+        {
+            print("Welcome to Mario cart!!!")
+            imageView.image = UIImage (named: "Shy Guy")
+        }
+        
+
         
         
     }
