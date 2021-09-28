@@ -35,8 +35,7 @@ class ViewController: UIViewController
         // Do any additional setup after loading the view.
         
         
-        thingOne.resignFirstResponder()
-        thingTwo.resignFirstResponder()
+
 
     }
 
@@ -45,6 +44,10 @@ class ViewController: UIViewController
     
     @IBAction func pizzaTime(_ sender: Any)
     {
+        thingOne.resignFirstResponder()
+        thingTwo.resignFirstResponder()
+        
+        
         var thingOne = thingOne.text ?? "1"
         var thingTwo = thingTwo.text ?? "1"
         
@@ -54,13 +57,15 @@ class ViewController: UIViewController
         var doubleDeckerHamburger = appleDeletus * orangePower
         thingFour.text = "\(doubleDeckerHamburger)"
         
+       
+        
         if doubleDeckerHamburger == 64
         {
             print("Welcome to Mario cart!!!")
             imageView.image = UIImage (named: "Shy Guy")
         }
         
-
+        
         
         
     }
