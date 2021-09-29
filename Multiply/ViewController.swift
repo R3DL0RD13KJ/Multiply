@@ -55,14 +55,24 @@ class ViewController: UIViewController
         var orangePower = Float(thingTwo) ?? 1
         
         var doubleDeckerHamburger = appleDeletus * orangePower
+        var pepperoniPizza = doubleDeckerHamburger % 2
         thingFour.text = "\(doubleDeckerHamburger)"
         
        
+        //If Else statements
+        
+        
+        
+        
         
         if doubleDeckerHamburger == 64
         {
             print("Welcome to Mario cart!!!")
             imageView.image = UIImage (named: "Shy Guy")
+        }
+        if pepperoniPizza == 0
+        {
+            imageView.image = UIImage (named: "Hulk meme")
         }
         
         
