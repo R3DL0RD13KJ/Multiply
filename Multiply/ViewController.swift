@@ -54,7 +54,7 @@ import UIKit
         
         var doubleDeckerHamburger = appleDeletus * orangePower
         
-//       var pepperoniPizza = double
+//       var pepperoniPizza = doubleDeckerHambuger
 //       let minutes = Int(doubleDeckerHamburger / 60))
 //       let seconds = In
    
