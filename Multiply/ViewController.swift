@@ -54,9 +54,8 @@ import UIKit
         
         var doubleDeckerHamburger = appleDeletus * orangePower
         
-//       var pepperoniPizza = doubleDeckerHambuger
-//       let minutes = Int(doubleDeckerHamburger / 60))
-//       let seconds = In
+//       var pepperoniPizza = doubleDeckerHamburger let modulus Int(doubleDeckerHamburger / 2))
+//       let modulus = 1 % 2
    
 
         thingFour.text = "\(doubleDeckerHamburger)"
