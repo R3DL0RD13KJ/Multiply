@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController
+    class ViewController: UIViewController
 {
     
     //Variables
@@ -35,8 +35,6 @@ class ViewController: UIViewController
         // Do any additional setup after loading the view.
         
         
-
-
     }
 
         //Actions
@@ -55,31 +53,34 @@ class ViewController: UIViewController
         var orangePower = Float(thingTwo) ?? 1
         
         var doubleDeckerHamburger = appleDeletus * orangePower
-        var pepperoniPizza = doubleDeckerHamburger % 2
+        
+//       var pepperoniPizza = double
+//       let minutes = Int(doubleDeckerHamburger / 60))
+//       let seconds = In
+   
+
         thingFour.text = "\(doubleDeckerHamburger)"
-        
+    
        
-        //If Else statements
+       
         
-        
-        
-        
-        
-        if doubleDeckerHamburger == 64
+        if doubleDeckerHamburger == 64 
         {
             print("Welcome to Mario cart!!!")
             imageView.image = UIImage (named: "Shy Guy")
         }
-        if pepperoniPizza == 0
-        {
-            imageView.image = UIImage (named: "Hulk meme")
-        }
-        
-        
+//        if pepperoniPizza == 0
+//        {
+//            imageView.image = UIImage (named: "Hulk meme")
+//        }
+//        else if pepperoniPizza == 1
+//        {
+//            imageView.image = UIImage (named: "I know it sounds bad meme")
+//        }
+    
         
         
     }
-    
     
 
 }
